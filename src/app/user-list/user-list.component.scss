@@ -1,0 +1,15 @@
+.user-list-layout {
+  width: 500px;
+  height: auto;
+}
+
+.pagination {
+  width: 500px;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+
+  .button {
+    cursor: pointer;
+  }
+}

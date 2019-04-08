@@ -1,0 +1,17 @@
+.user-detail {
+  width: auto;
+  height: auto;
+  text-align: center;
+
+  & > p {
+    font-size: 20px;
+  }
+  .avatar {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+  }
+  .button {
+    cursor: pointer;
+  }
+}

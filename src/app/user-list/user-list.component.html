@@ -1,0 +1,10 @@
+<div class="main-layout">
+  <div *ngFor="let user of userList" class="user-list-layout">
+    <app-user-list-card [user]="user"></app-user-list-card>
+  </div>
+  <div class="pagination">
+    <p class="button" (click)="onClickPrev()"><<< PREV</p>
+    <p>{{currentPage}}/{{totalPages}}</p>
+    <p class="button" (click)="onClickNext()">NEXT >>></p>
+  </div>
+</div>
